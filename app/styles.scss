@@ -1,0 +1,138 @@
+// Fonts
+@font-face {
+	font-family: outfit;
+	src: url(../public/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: young-serif;
+	src: url(../public/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+.outfit {
+	font-family: outfit;
+}
+.young-serif {
+	font-family: young-serif;
+}
+// Sizes
+$h1: 3.75rem;
+$h2: 3rem;
+$h3: 2rem;
+$p: 1.75rem;
+
+// Colors
+$black: #000000;
+$gray: #6e6967;
+$purple: #7e2a4c;
+$brown: #784032;
+
+// Styles
+main {
+	background-color: #f3e5d8;
+}
+.h1 {
+	color: $black;
+	font-size: $h1;
+}
+.h2 {
+	color: $brown;
+	font-size: $h2;
+}
+.h3 {
+	color: $purple;
+	font-size: $h3;
+}
+.p {
+	color: $gray;
+	font-size: $p;
+	max-inline-size: 70ch;
+}
+span {
+	color: $gray;
+}
+b {
+	color: black;
+	font-weight: 600;
+}
+.content-frame {
+	background-color: #ffffff;
+	border-radius: 40px;
+	max-width: 1920px;
+	min-height: 50vh;
+	margin: auto;
+	padding: 4rem 5rem;
+}
+.content-container {
+	max-width: 1312px;
+	margin: auto;
+}
+.frame-preparation-time {
+	background-color: #fff7fc;
+	border-radius: 40px;
+	font-size: 1.5rem;
+	width: 100%;
+	padding: 2.5rem;
+	margin: 2.5rem 0;
+	ul li {
+		margin-left: 0.5rem;
+	}
+}
+.frame-ingredients {
+	font-size: $p;
+	color: $gray;
+	ul li {
+		margin-left: 0.5rem;
+	}
+}
+.frame-instructions {
+	ol {
+		padding-left: 2rem;
+		li {
+			color: $brown;
+			font-size: $p;
+			font-weight: 600;
+			padding-left: 0.5rem;
+			span {
+				color: $gray;
+				font-weight: 400;
+			}
+		}
+	}
+}
+.frame-nutrition {
+	font-size: $p;
+	table {
+		width: 100%;
+		text-align: left;
+		tr {
+			border-bottom: 2px rgba(110, 105, 103, 0.5) solid;
+			&:last-child {
+				border-bottom: 0px rgba(110, 105, 103, 0.5) solid;
+			}
+			th {
+				padding-left: 2.5rem;
+				padding-top: 1.5rem;
+				padding-bottom: 1.5rem;
+				&:first-child {
+					color: $gray;
+					font-weight: 400;
+				}
+				&:last-child {
+					color: $brown;
+				}
+			}
+		}
+	}
+}
+.divider {
+	font-size: 32px;
+	display: flex;
+	align-items: center;
+	&::before,
+	&::after {
+		flex: 1;
+		content: "";
+		padding: 1px;
+		background-color: $gray;
+		opacity: 50%;
+	}
+}
