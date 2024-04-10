@@ -1,5 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+ Link to my Figma design (https://www.figma.com/file/ycQvKiGGfdRnvdk223g1k3/Omelette-Recipe-Design?type=design&node-id=2-14&mode=design&t=hIN9ToctGJfzaqi2-0).
 ## Getting Started
 
 First, run the development server:
